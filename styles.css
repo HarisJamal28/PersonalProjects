@@ -1,0 +1,145 @@
+#Holder {
+  display: flex;
+  padding: 10px;
+  margin: 10px;
+  background-color: greenyellow;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 100%;
+}
+
+body {
+  background-color: rgba(128, 255, 0, 0.413);
+}
+
+#Left {
+  background-color: green;
+  padding: 10px;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+
+#Right {
+  background-color: green;
+  padding: 10px;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+
+#divide {
+  height: 100%;
+  background-color: greenyellow;
+  padding: 10px;
+}
+
+#Left_Score {
+  padding: 10px;
+  height: 70%;
+}
+#Left_Score:hover {
+  cursor: pointer;
+}
+
+#Right_Score {
+  padding: 10px;
+  height: 70%;
+}
+#Right_Score:hover {
+  cursor: pointer;
+}
+
+#Logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  width: 50px;
+  border: 1px solid green;
+  background-color: chartreuse;
+}
+#Logo:hover {
+  cursor: pointer;
+}
+
+#savebutton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  width: 50px;
+  border: 1px solid green;
+  background-color: chartreuse;
+}
+#savebutton:hover {
+  cursor: pointer;
+}
+
+#Left_Score {
+  font-size: 64px;
+}
+
+#Right_Score {
+  font-size: 64px;
+}
+
+#SideControls {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid black;
+}
+
+#Holder2 {
+  display: flex;
+  padding: 10px;
+  margin: 10px;
+  background-color: greenyellow;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+
+#L_add {
+  padding: 15px;
+  background-color: green;
+  font-weight: 700;
+}
+#L_add:hover {
+  transform: scale(1.2);
+  cursor: pointer;
+}
+
+#L_min {
+  padding: 15px;
+  background-color: green;
+  font-weight: 700;
+}
+#L_min:hover {
+  transform: scale(1.2);
+  cursor: pointer;
+}
+
+#R_add {
+  padding: 15px;
+  background-color: green;
+  font-weight: 700;
+}
+#R_add:hover {
+  transform: scale(1.2);
+  cursor: pointer;
+}
+
+#R_min {
+  padding: 15px;
+  background-color: green;
+  font-weight: 700;
+}
+#R_min:hover {
+  transform: scale(1.2);
+  cursor: pointer;
+}
+
+#UFC {
+  display: none;
+}/*# sourceMappingURL=styles.css.map */
