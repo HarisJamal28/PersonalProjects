@@ -32,6 +32,10 @@
             background-color: green;
             color: white;
         }
+
+        #menu{
+        margin:100px;
+        }
     </style>
 </head>
 <body>
@@ -46,6 +50,10 @@
     <button id="upButton" onmousedown="startMoveUp()" onmouseup="stopMoveUp()" onmouseout="stopMoveUp()" ontouchstart="startMoveUp()" ontouchend="stopMoveUp()">Up</button>
     <button id="rightButton" onmousedown="startMoveRight()" onmouseup="stopMoveRight()" onmouseout="stopMoveRight()" ontouchstart="startMoveRight()" ontouchend="stopMoveRight()">Right</button>
 </section>
+
+    <section id="menu">
+        <button onclick="reload()">REDO</button>
+    </section>
 
 <script type="text/javascript">
 
@@ -244,6 +252,10 @@
 
     function stopMoveUp() {
         isMovingUp = false;
+    }
+
+    function reload(){
+    location.reload();
     }
 </script>
 
