@@ -290,6 +290,7 @@ function Disp2(){
         disp2.style.display = 'none';
         icon2.style.color = 'black';
         navbutt2.style.border = '3px solid black';
+        resetTara();
 
         Disp3();
     }
@@ -305,6 +306,7 @@ function Disp3(){
         disp3.style.display = 'none';
         icon3.style.color = 'black';
         navbutt3.style.border = '3px solid black';
+        reset();
 
         Disp1();
     }
